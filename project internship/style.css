@@ -1,0 +1,158 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styling the navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:bisque;
+    padding: 10px 20px;
+  }
+  
+  /* Styling the logo */
+  .logo img {
+    height: 40px;
+  }
+  
+  /* Styling the navigation links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #f8f9fa;
+  }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 10px;
+    }
+  
+    .nav-links li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+
+  /* Previous CSS styles remain unchanged */
+
+.slider-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }        /* Previous CSS styles remain unchanged */
+  
+  .slider img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  button:hover {
+    background-color: orange;
+    color: #fff;
+  }
+
+
+  /* Previous CSS styles remain unchanged */
+
+.city-selector {
+    max-width: 600px;
+    margin: 20px auto;     /* Center the container */
+  }
+  
+  .google-review {
+    max-width: 600px;   /* Limit the width of the container */
+    margin: 20px auto;
+  }
+  
+  .google-review img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .box2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;      /* Align items vertically */
+    margin: 20px 0;
+  }
+
+  /* Previous CSS styles remain unchanged */
+
+.teeth-issues {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .gif-container img {
+    margin: 10px;
+    max-width: 200px;
+    height: auto;
+  }
+  
+  /* Previous CSS styles remain unchanged */
+
+.hear-from-patients {
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  
+  .video-scroll-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar in Internet Explorer */
+  }
+  
+  .video-card {
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+    width: 400px;
+    margin-right: 10px;
+  }
+  
+  .video-card video {
+    width: 100%;
+  }
+  
